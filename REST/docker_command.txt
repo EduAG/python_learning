@@ -1,0 +1,7 @@
+docker run -dp 5005:5000 rest-apis-flash-python
+docker stop $(docker ps -a -q) // in ps you can put the fist number of the id
+docker ps -a // list containers runinr
+docker ps -a // To see all the container runing or not
+
+--Docker compose
+docker compose up --build --force-recreate --no-deps web 
